@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './Navbar.css';
 
 import LanguageConsumer from '../context/LanguageConsumer';
@@ -8,11 +7,8 @@ import LanguageConsumer from '../context/LanguageConsumer';
 function Navbar() {
   return(
     <>
-    <nav className='navbar'>
       <div className='navbar-container'>
-        <Link to='/' className='navbar-logo'>
-          <img src='../../codewlogo.png' alt='logo'></img>
-        </Link>
+          <img src='../../wordlogo.svg' alt='logo' className='navbar-logo'></img>
         <ul className='nav-menu'>
           <li className='nav-item'>
             <a href="#about" className='nav-links' >
@@ -67,7 +63,6 @@ function Navbar() {
                         )}
         </LanguageConsumer>
       </div>
-    </nav>
     </>  
   )
 }

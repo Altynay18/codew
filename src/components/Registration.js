@@ -103,7 +103,7 @@ export default class Registration extends Component {
             <input placeholder='No more than 150 words' type="text" name = "motivation" value = {motivation} onChange={this.changeHandler}/>
 
         </form>
-        <Button color="blue" type='submit'>Submit</Button>
+        <Button type='submit' className='registration-btn'>Submit</Button>
 
       </div>
     )

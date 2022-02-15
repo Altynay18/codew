@@ -1,7 +1,7 @@
 .schedule-section{
     height: max-content;
     width: 100%;
-    padding: 60px;
+    padding: 60px 100px;
 }
 
 .schedule-container{
@@ -13,21 +13,19 @@
 
 .title{
     box-sizing: border-box;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 700;
 }
 
 .subtitle{
     color: #FF7E70;
-    font-size: 48px;
-    font-weight: 500;
+    font-size: 26px;
     margin-bottom: 32px;
-    padding-left: 60px;
 }
 
 
 .schedule{
-   width: 35vw;
+   width: 70%;
 }
 
 .schedule-item{
@@ -40,7 +38,7 @@
 }
 
 .time{
-    font-size: 48px;
+    font-size: 32px;
     color: #000;
     font-weight: 400;
     display: flex;
@@ -49,6 +47,6 @@
 }
 
 .activity{
-    font-size: 32px;
+    font-size: 24px;
     text-align: left;
 }

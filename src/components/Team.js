@@ -5,7 +5,7 @@ import TranslatableText from '../context/TranslatableText';
 function Team() {
   return (
     <div className='team-container' id="team">
-        <div className='title'>
+        <div className='team-title'>
         <TranslatableText
              dictionary={{ english: "Who did it all?", russian: "Наша команда", kazakh: "Біздің команда" }}
         /> 

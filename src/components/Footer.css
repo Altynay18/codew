@@ -1,53 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@500&display=swap');
 
-.navbar{
+.footer{
     background-color: #fff;
-    height: 120px;
-    border-top: 1px solid #FBB5B5;
-    /* font-size: 1.2rem; */
-    
+    height: 80;
+    border-top: 1px solid #000;
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar-container{
+.footer-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; 
-    padding: 0 6rem;
 }
 
-.navbar-logo{
-    color: #FBB5B5;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+.footer-logo{
+    height: 60px;
+    padding: 10px; 
 }
 
-.nav-menu{
+.footer-menu{
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
     grid-gap: 10rem;
     list-style: none;
     text-align: center;
 }
 
-.nav-item{
-    height: 120px;
-
+.footer-item{
+    height: 80px;
 }
 
-.nav-links{
+.footer-links{
     color: #000;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 20px;
     display: flex;
     align-items: center;
     text-decoration: none;
     height: 100%;
 }
 
-.nav-links:hover{
+.footer-links:hover{
     border-bottom: 4px solid #FBB5B5;
     transition: all 0.2s ease-out;
 }
 
+/* .footer-source{
+    text-decoration: none;
+    color: #000;
+}
+ */

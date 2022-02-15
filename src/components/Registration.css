@@ -1,18 +1,16 @@
 .container{
     height: max-content;
-    padding-top: 60px;
-    padding-bottom: 120px;
-
+    padding: 60px 0px;
     margin: auto;
 }
 h1 {
-    padding: 60px 120px;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 700;
+    padding-bottom: 60px;
 }
 
 .form{
-    width: 1240px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;    
@@ -20,24 +18,27 @@ h1 {
   
 
 label {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #24292e;
 }
 
 select{
     height: 60px;
+    border-radius: 8px;
+    border: 2px solid #000;
 }
     
  input{
-    font-size: larger;
-    height: 60px;
+    font-size: 16px;
+    height: 50px;
     border-radius: 8px;
     border: 2px solid #000;
     padding: 5px;
     margin: 12px 0;
-    
     }
+
+
 /* .registration-section{
     background: url('../../public/gradient.jpg') center center/cover no-repeat;     
     height: 200vh;

@@ -9,7 +9,7 @@ function Faq() {
 
   return (
      <div className='faq' id="faq">
-     <h1>
+     <h1 className='faq-title'>
      <TranslatableText
           dictionary={{ english: "Frequently Asked Questions ", russian: "Часто задаваемые вопросы", kazakh: "Жиі қойылатын сұрақтар" }}
       /> 

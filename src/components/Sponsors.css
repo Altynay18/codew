@@ -1,15 +1,13 @@
 .sponsors-container{
-    /* background: url('../../public/gadient2.jpg') center center/cover no-repeat;      */
-
-    height: 100vh;
+    height: max-content;
+    padding: 60px 100px;
     width: 100%;
 }
 
 
-.title{
-    font-size: 60px;
+.sponsors-title{
+    font-size: 48px;
     font-weight: 700;
-    padding: 60px 0 0;
 }
 
 .companies-logo{
@@ -24,11 +22,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+    height: 80px;
+    margin: 3rem 0;
 }
 
-.img{
-    display: block;
-    width: 300px;
-    height: 100px;
-}

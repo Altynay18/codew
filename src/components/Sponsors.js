@@ -6,7 +6,7 @@ import TranslatableText from '../context/TranslatableText';
 function Sponsors() {
   return(
     <div className='sponsors-container' id="sponsors">
-        <div className='title'>
+        <div className='sponsors-title'>
         <TranslatableText
              dictionary={{ english: "Meet our sponsors ", russian: "Наши спонсоры", kazakh: "Біздің демеушілер" }}
         /> 
