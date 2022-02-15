@@ -1,4 +1,3 @@
-import TranslatableText from "../../context/TranslatableText";
 
 export const accordionData = [
     {

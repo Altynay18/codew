@@ -1,7 +1,7 @@
 .schedule-section{
-    height: 80vh;
+    height: max-content;
     width: 100%;
-    padding: 60px 0 0 60px;
+    padding: 60px;
 }
 
 .schedule-container{
@@ -44,7 +44,7 @@
     color: #000;
     font-weight: 400;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-bottom: 1rem;
 }
 

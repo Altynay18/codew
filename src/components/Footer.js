@@ -18,9 +18,9 @@ function Footer() {
           </li>
           <li className='nav-item nav-links'>
             
-             <a href='https://www.instagram.com/acmsc_nu/' target="_blank"><img  className='icons' src='../../sm1.png' alt='sm'></img></a>
-             <a href='https://web.telegram.org/z/#-1231208125' target="_blank"><img  className='icons' src='../../sm2.png' alt='sm'></img></a>
-             <a href='mailto:acmsc@nu.edu.kz' target="_blank"><img  className='icons' src='../../sm3.png' alt='sm'></img></a>
+             <a href='https://www.instagram.com/acmsc_nu/' ><img  className='icons' src='../../sm1.png' alt='sm'></img></a>
+             <a href='https://web.telegram.org/z/#-1231208125'><img  className='icons' src='../../sm2.png' alt='sm'></img></a>
+             <a href='mailto:acmsc@nu.edu.kz'><img  className='icons' src='../../sm3.png' alt='sm'></img></a>
           </li>
           
         </ul>

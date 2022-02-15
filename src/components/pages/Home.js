@@ -8,7 +8,6 @@ import Sponsors from '../Sponsors';
 import Team from '../Team';
 import Schedule from '../Schedule';
 import Faq from '../Faq';
-import RegistrationForm from '../RegistrationForm/RegistrationForm';
 import Footer from '../Footer';
 import Registration from '../Registration';
 

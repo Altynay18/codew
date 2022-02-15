@@ -26,7 +26,7 @@ function Timeline() {
                                     </span>
                                     <span class="qualification__calendar">
                                     <TranslatableText
-                                        dictionary={{ english: "Fill the application form by 11:59 PM February 26, 2022", russian: "Заполните форму для регистрации до 26 февраля 2022 года", kazakh: "Тіркелу формасын 2022 жылдың 26-шы ақпанына дейін толтырыңыз" }}
+                                        dictionary={{ english: "Fill the application form by 11:59 PM February 27, 2022", russian: "Заполните форму для регистрации до 27 февраля 2022 года", kazakh: "Тіркелу формасын 2022 жылдың 27-ші ақпанына дейін толтырыңыз" }}
                                     />
                                     </span>
                                 </div>
