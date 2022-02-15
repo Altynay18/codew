@@ -1,10 +1,45 @@
-.registration-section{
+h1 {
+    padding: 60px 120px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.form{
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  }
+  
+  .container{
+    padding:20px
+  }
+
+  label {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+}
+
+    
+    .input{
+    font-size: larger;
+    height: 120px;
+    border-radius: 8px;
+    border: 2px solid #000;
+
+    padding: 5px;
+    margin: 12px 0;
+    
+    }
+/* .registration-section{
     background: url('../../public/gradient.jpg') center center/cover no-repeat;     
     height: 200vh;
 }
 .form{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     
 }
@@ -22,9 +57,8 @@
         font-size: 60px;
         font-weight: 700;
     }
-
-    .label{
-    /* display: block; */
+*/
+    /* .label{
     font-size: 24px;
     font-weight: 500;
     color: #000;
@@ -72,4 +106,4 @@
     height: 50px;
     padding: 5px;
     }
-    
+     */ 

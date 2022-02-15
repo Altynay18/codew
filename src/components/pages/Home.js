@@ -10,7 +10,7 @@ import Schedule from '../Schedule';
 import Faq from '../Faq';
 import RegistrationForm from '../RegistrationForm/RegistrationForm';
 import Footer from '../Footer';
-
+import Registration from '../Registration';
 
 
 function Home(){
@@ -24,7 +24,7 @@ function Home(){
         <Team/>
         <Schedule/>
         <Faq/>
-        <RegistrationForm/>
+        <Registration/>
         <Footer/>
         </>
     );

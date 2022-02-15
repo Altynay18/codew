@@ -1,10 +1,11 @@
 import "./RegistrationForm.css";
 import React from "react";
-// import { render } from "react-dom";
+import { render } from "react-dom";
 import { withFormik } from "formik";
 import * as Yup from "yup";
 import classnames from "classnames";
 import TranslatableText from "../../context/TranslatableText";
+import { DisplayFormikState } from "./DisplayFormikState";
 
 const formikEnhancer = withFormik({
   validationSchema: Yup.object().shape({
@@ -20,9 +21,9 @@ const formikEnhancer = withFormik({
     stateID: Yup.string()
     .min(2, "Not valid")
     .required("state id is required!"),
-    birthdate: Yup.string()
-      .email("Invalid date ") //recheck
-      .required("Date is required!"),
+    // birthDate: Yup.string()
+    //   .email("Invalid date ") //recheck
+    //   .required("Date is required!"),
     citizenship: Yup.string()
       .min("2")
       .required("Citizenship is required!"),
@@ -110,11 +111,10 @@ const TextInput = ({
       <InputFeedback error={error} />
     </div>
     </div>
-
   );
 };
 const MyForm = (props) => {
-  const {
+  const { 
     values,
     touched,
     errors,
@@ -132,7 +132,7 @@ const MyForm = (props) => {
              dictionary={{ english: "Registration Form: ", russian: "Форма для регистрации", kazakh: "Тіркелу формасы" }}
         /> 
     </h1>
-    <form onSubmit={handleSubmit}>
+    <form action="https://script.google.com/macros/s/AKfycbwEoQDv60rHxv6z9Z_ePFgBq9JlIXlb0eB1ywuzqmZ9aXOWXHx9VvvSnJB72lwchmWMjg/exec" method="post" onSubmit={handleSubmit}>
       <TextInput
         id="firstName"
         type="text"
@@ -301,7 +301,7 @@ const MyForm = (props) => {
       <button type="submit" disabled={isSubmitting}>
       {<TranslatableText dictionary={{ english: "Submit", russian: "Отправить", kazakh: "Жіберу" }} /> }
       </button>
-      {/* <DisplayFormikState {...props} /> */}
+      <DisplayFormikState {...props} />
     </form>
     </div>
   );
@@ -309,7 +309,7 @@ const MyForm = (props) => {
 
 const MyEnhancedForm = formikEnhancer(MyForm);
 
-export default MyEnhancedForm;
+export default MyEnhancedForm; 
 
 // Helper for the demo
 // import { DisplayFormikState } from "./formik-demo";

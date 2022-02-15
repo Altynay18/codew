@@ -18,7 +18,6 @@ function Faq() {
        {accordionData.map(({ title, content }) => (
          <Accordion title={title} content={content} />
        ))}
-
      </div>
    </div>
   );
