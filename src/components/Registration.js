@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './Registration.css';
-import {Button} from './Button';
+// import {Button} from './Button';
+import TranslatableText from '../context/TranslatableText';
 export default class Registration extends Component {
   constructor(props) {
     super(props)
   
     this.state = {
-	   email: '',
-       first_Name: '',
+	    email: '',
+       first_name: '',
        last_name: '',
        date_of_birth: '',
 	   state_id: '',
@@ -52,29 +53,49 @@ export default class Registration extends Component {
       <div  className="container" id="registration">
         <h1>Registration form</h1>
         <form className="form" onSubmit={this.submitHandler}>
-			<label>e-mail</label>
-            <input placeholder='Enter your email' type="email" name = "email" value = {email} onChange={this.changeHandler}/>
-            <label>First name</label>
-            <input placeholder='Enter your name' type="text" name = "first_name" value = {first_name} onChange={this.changeHandler}/>
-            <label>Last name</label>
-            <input placeholder='Enter your age' type="text" name = "last_name" value = {last_name} onChange={this.changeHandler}/>
+			<label>
+      <TranslatableText
+             dictionary={{ english: "E-mail", russian: "Электронная почта", kazakh: "Электронды пошта" }}
+        /> 
+      </label>
+            <input  type="email" name = "email" value = {email} onChange={this.changeHandler}/>
+            <label><TranslatableText
+               dictionary={{ english: "First name", russian: "Имя", kazakh: "Аты" }}
+            />
+        </label>
+            <input type="text" name = "first_name" value = {first_name} onChange={this.changeHandler}/>
+            <label><TranslatableText
+             dictionary={{ english: "Last name", russian: "Фамилия", kazakh: "Тегі" }}
+            />
+        </label>
+            <input type="text" name = "last_name" value = {last_name} onChange={this.changeHandler}/>
          
-            <label>Date of birth</label>
-            <input placeholder='Enter your date of birth' type="date" name = "date_of_birth" value = {date_of_birth} onChange={this.changeHandler}/>
+            <label><TranslatableText
+             dictionary={{ english: "Date of birth", russian: "Дата рождения", kazakh: "Туылған күні" }}
+            /></label>
+            <input type="date" name = "date_of_birth" value = {date_of_birth} onChange={this.changeHandler}/>
           
-            <label>State ID</label>
-            <input placeholder='Link to your state ID' type="text" name = "state_id" value = {state_id} onChange={this.changeHandler}/>
+            <label><TranslatableText
+             dictionary={{ english: "State ID (link)", russian: "Удостовение личности (ссылка)", kazakh: "Жеке куәлігі (сілтеме)" }}
+            /></label>
+            <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "state_id" value = {state_id} onChange={this.changeHandler}/>
           
-			<label>Citizenship </label>
-            <input placeholder='Enter your citizenship' type="text" name = "citizenship" value = {citizenship} onChange={this.changeHandler}/>
+			<label><TranslatableText
+             dictionary={{ english: "Citizenship", russian: "Гражданство", kazakh: "Азаматтығы" }}
+            /></label>
+            <input type="text" name = "citizenship" value = {citizenship} onChange={this.changeHandler}/>
 
-			<label>City of residence</label>
-            <input placeholder='Enter your city' type="text" name = "city_of_residence" value = {city_of_residence} onChange={this.changeHandler}/>
+			<label><TranslatableText
+             dictionary={{ english: "City of residence", russian: "Город проживания", kazakh: "Қала" }}
+            /></label>
+            <input type="text" name = "city_of_residence" value = {city_of_residence} onChange={this.changeHandler}/>
 
-			<label>University or School organization name</label>
-            <input placeholder='Enter your organization name' type="text" name = "school_name" value = {school_name} onChange={this.changeHandler}/>
+			<label><TranslatableText
+             dictionary={{ english: "University or School organization name", russian: "Полное название университета или школы", kazakh: "Университет немесе мектептің толық атауы" }}
+            /></label>
+            <input type="text" name = "school_name" value = {school_name} onChange={this.changeHandler}/>
 
-			<label>Currently Pursuing Degree</label>
+			<label><TranslatableText dictionary={{ english: "Currently pursuing degree ", russian: "Ваша текущая степень", kazakh: "Қазіргі алып жатырған дәреже" }} /></label>
             {/* <input placeholder='High School, Bachelors, Masters, PhD' type="text" name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}/> */}
 			<select name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}>
                                     <option value = "highschool">Highschool</option>
@@ -83,27 +104,28 @@ export default class Registration extends Component {
 									<option value = "phd">PhD</option>
 
                                 </select>
-			<label>Years completed towards degree/Current year</label>
-            <input placeholder='Current year' type="number" step="1" name = "current_year" value = {current_year} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "Years completed towards degree ", russian: "Текущий год обучения", kazakh: "Оқу жылы" }} /> </label>
+            <input type="number"  name = "current_year" value = {current_year} onChange={this.changeHandler}/>
 
-			<label>Official Transcript or Enrollment verification (Spravka)</label>
-            <input placeholder='Link to your spravka ' type="text" name = "enrollment_verification" value = {enrollment_verification} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "Official Transcript or Enrollment verification (Spravka)", russian: "Официальный транскрипт или справка о зачислении ", kazakh: "Ресми транскрипт немесе қабылдану туралы анықтама" }} /> </label>
+            <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "enrollment_verification" value = {enrollment_verification} onChange={this.changeHandler}/>
 
-			<label>Contest language preference</label>
+			<label><TranslatableText dictionary={{ english: "Contest language preference", russian: "Предпочтительный язык марафона", kazakh: "Марафон тілін таңдаңыз" }} /> </label>
             <input placeholder='English, Russian, Kazakh' type="text" name = "contest_language" value = {contest_language} onChange={this.changeHandler}/>
 
-			<label>Programming language preference</label>
-            <input placeholder='Can be many ' type="text" name = "programming_language" value = {programming_language} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "Programming language preference", russian: "Предпочтительный язык программирования", kazakh: "Бағдарламалау тілін таңдаңыз" }} /></label>
+            <input placeholder='ex: C++, Python, Java' type="text" name = "programming_language" value = {programming_language} onChange={this.changeHandler}/>
 
 
-			<label>CV or Resume</label>
-            <input placeholder='Link to your CV or Resume ' type="text" name = "cv" value = {cv} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "CV or Resume", russian: "CV или резюме", kazakh: "CV немесе түйіндеме" }} /></label>
+            <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "cv" value = {cv} onChange={this.changeHandler}/>
 
-			<label>Motivation</label>
-            <input placeholder='No more than 150 words' type="text" name = "motivation" value = {motivation} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "Motivational letter", russian: "Мотивационное письмо", kazakh: "Мотивациялық хат" }} /> </label>
+            <input  type="text" name = "motivation" value = {motivation} onChange={this.changeHandler}/>
+            
+            <button type='submit' className='registration-btn'>Submit</button>
 
         </form>
-        <Button type='submit' className='registration-btn'>Submit</Button>
 
       </div>
     )

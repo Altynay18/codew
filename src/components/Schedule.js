@@ -22,7 +22,7 @@ function Schedule() {
             <div className='schedule'>
                 <div className='schedule-item'>
                      <div className='time'>
-                        1 1:00 - 12:00
+                        10:00 - 11:00
                      </div>
                      <div className='activity'>
                         <TranslatableText
@@ -31,8 +31,28 @@ function Schedule() {
                      </div>
                 </div>
                 <div className='schedule-item'>
+                     <div className='time'>
+                        11:00 - 13:00
+                     </div>
+                     <div className='activity'>
+                        <TranslatableText
+                        dictionary={{ english: "Workshop", russian: "Воркшоп", kazakh: "Воркшоп" }}
+                        /> 
+                     </div>
+                </div>
+                <div className='schedule-item'>
+                     <div className='time'>
+                        13:00 - 14:00
+                     </div>
+                     <div className='activity'>
+                        <TranslatableText
+                        dictionary={{ english: "Lunch break", russian: "Обеденный перерыв", kazakh: "Түскі ас" }}
+                        /> 
+                     </div>
+                </div>
+                <div className='schedule-item'>
                     <div className='time'>
-                         13:00 - 16:00
+                         14:00 - 17:00
                      </div>
                     <div className='activity'>
                         <TranslatableText
@@ -42,7 +62,7 @@ function Schedule() {
                 </div>
                 <div className='schedule-item'>
                     <div className='time'>
-                        17:00 - 18:30
+                        17:00 - 18:00
                     </div>
                     <div className='activity'>
                         <TranslatableText
@@ -52,7 +72,7 @@ function Schedule() {
                 </div>
                 <div className='schedule-item'>
                     <div className='time'>
-                        19:00 -20:00
+                        18:00 -18:40
                     </div>
                     <div className='activity'>
                         <TranslatableText

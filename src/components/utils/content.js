@@ -1,7 +1,8 @@
+// import TranslatableText from "../../context/TranslatableText";
 
 export const accordionData = [
     {
-      title: ' Who can participate ?',
+      title: "Who can participate ?",
       content: `Everyone of age 16 to 25 who identify themselves female is 
       welcome to participate. You don’t need to be a Nazarbayev University student.`
     },

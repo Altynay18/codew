@@ -30,13 +30,24 @@ select{
 }
     
  input{
-    font-size: 16px;
+    font-size: 12px;
     height: 50px;
     border-radius: 8px;
     border: 2px solid #000;
-    padding: 5px;
+    padding: 5px 5px 5px 15px;
     margin: 12px 0;
     }
+
+.registration-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FF7E70;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+
+    
+}
 
 
 /* .registration-section{
