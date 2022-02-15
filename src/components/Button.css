@@ -1,0 +1,26 @@
+:root{
+    --primary-color: #FF7E70;
+    --secondary-color: #fff;
+}
+
+.btn{
+    /* padding: 8px 20px; */
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--primary-color);
+    color: #000;
+    border: 5px solid var(--primary-color);
+}
+
+.btn--outline{
+    background-color: var(--secondary-color);
+    color: #000;
+    /* padding: 8px 20px; */
+    border: 2px solid  var(--primary-color);
+    transition: all 0.3s ease-out;
+}

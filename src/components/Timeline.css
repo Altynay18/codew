@@ -1,0 +1,69 @@
+.qualification{
+    background: url('../../public/gadient2.jpg') center center/cover no-repeat; 
+
+}
+
+.section{
+    padding: 2rem 0 4rem;
+}
+.container{
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+    
+}
+
+.qualification__title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.qualification__calendar{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.section__title{
+    font-size: 60px;
+    font-weight: 700;
+    padding: 60px 0 0 120px;
+    
+}
+.qualification__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+
+
+.qualification__rounder{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #FF7E70;
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #FF7E70;
+    transform: translate(6px, -7px);
+}

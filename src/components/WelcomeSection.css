@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;900&family=Roboto:wght@500&display=swap');
+.welcome-container{
+    background: url('../../public/gradient.jpg') center center/cover no-repeat;     
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.welcome-description{
+    width: 50%;
+    padding-left: 120px;
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.welcome-title > p{
+    padding: 16px 160px 16px 0;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.btn{
+    width: 380px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.welcome-illustration{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 120px;
+
+}

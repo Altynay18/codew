@@ -1,0 +1,54 @@
+.schedule-section{
+    height: 80vh;
+    width: 100%;
+    padding: 60px 0 0 60px;
+}
+
+.schedule-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.subtitle{
+    color: #FF7E70;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    padding-left: 60px;
+}
+
+
+.schedule{
+   width: 35vw;
+}
+
+.schedule-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    border-bottom: 2.5px solid #888888;
+    gap: 64px;
+    margin: 20px;
+}
+
+.time{
+    font-size: 48px;
+    color: #000;
+    font-weight: 400;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 1rem;
+}
+
+.activity{
+    font-size: 32px;
+    text-align: left;
+}
