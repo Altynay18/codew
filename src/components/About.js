@@ -36,7 +36,7 @@ function About() {
                </li>
                     <li className='e-item'>
                     <TranslatableText
-                    dictionary={{ english: "- are citizens of Kazakhstan", russian: "- являются гражданками Республики Казахстан", kazakh: "- Қазақстан азаматтығына ие" }}
+                    dictionary={{ english: "- are citizens or current residents of Kazakhstan", russian: "- являются гражданками Республики Казахстан или проживают на данный момент", kazakh: "- Қазақстан Республикасында тұратын немесе азаматы болып табылатын" }}
                /></li>
                     <li className='e-item'>
                         <TranslatableText

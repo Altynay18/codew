@@ -17,13 +17,7 @@ function Navbar() {
                />  
             </a>
           </li>
-          {/* <li className='nav-item'>
-            <a href="#timeline" className='nav-links' >
-              <TranslatableText
-              dictionary={{ english: "Timeline", russian: "Даты регистрации", kazakh: "Тіркелу барысы " }}
-               />  
-            </a>
-          </li> */}
+          
           <li className='nav-item'>
             <a href="#schedule" className='nav-links'>
             <TranslatableText

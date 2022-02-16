@@ -1,0 +1,31 @@
+.faq{
+    background: url('../../public/gadient2.jpg') center center/cover no-repeat; 
+    height: max-content;
+    padding: 60px 100px;
+  
+  }
+    
+  .faq-title {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+.column1{
+    margin-right: 2rem;
+
+}
+    
+.faq-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+}
+
+.faq-answer{
+    font-size: 18px;
+}
+
+
+.faq-item{
+    margin-bottom: 2rem;
+}

@@ -80,7 +80,7 @@ export default class Registration extends Component {
             <input type="date" name = "date_of_birth" value = {date_of_birth} onChange={this.changeHandler}/>
           
             <label><TranslatableText
-             dictionary={{ english: "State ID (link)", russian: "Удостовение личности (ссылка)", kazakh: "Жеке куәлігі (сілтеме)" }}
+             dictionary={{ english: "State ID (link)", russian: "Удостоверение личности (ссылка)", kazakh: "Жеке куәлігі (сілтеме)" }}
             /></label>
             <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "state_id" value = {state_id} onChange={this.changeHandler}/>
           
@@ -117,15 +117,15 @@ export default class Registration extends Component {
 			<label><TranslatableText dictionary={{ english: "Contest language preference", russian: "Предпочтительный язык марафона", kazakh: "Марафон тілін таңдаңыз" }} /> </label>
             <input placeholder='English, Russian, Kazakh' type="text" name = "contest_language" value = {contest_language} onChange={this.changeHandler}/>
 
-			<label><TranslatableText dictionary={{ english: "Programming language preference", russian: "Предпочтительный язык программирования", kazakh: "Бағдарламалау тілін таңдаңыз" }} /></label>
+			<label><TranslatableText dictionary={{ english: "Programming language preference (can be many)", russian: "Предпочтительный язык программирования (может быть несколько)", kazakh: "Бағдарламалау тілін таңдаңыз (бірнеше бола алады)" }} /></label>
             <input placeholder='ex: C++, Python, Java' type="text" name = "programming_language" value = {programming_language} onChange={this.changeHandler}/>
 
 
 			<label><TranslatableText dictionary={{ english: "CV or Resume", russian: "CV или резюме", kazakh: "CV немесе түйіндеме" }} /></label>
             <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "cv" value = {cv} onChange={this.changeHandler}/>
 
-			<label><TranslatableText dictionary={{ english: "Motivational letter", russian: "Мотивационное письмо", kazakh: "Мотивациялық хат" }} /> </label>
-            <input  type="text" name = "motivation" value = {motivation} onChange={this.changeHandler}/>
+			<label><TranslatableText dictionary={{ english: "Motivational letter (no more than 200 words)", russian: "Мотивационное письмо (Не большое 200 слов)", kazakh: "Мотивациялық хат (200 cөзден артық емес)" }} /> </label>
+            <input  type="text" id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}/>
             
             <button type='submit' id="submit" className='registration-btn'>Submit</button>
 
