@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import {Button} from './Button';
+// import {Button} from './Button';
 import './WelcomeSection.css';
 
 import TranslatableText from '../context/TranslatableText';
@@ -27,22 +27,22 @@ function WelcomeSection(){
                 </div>
                 <div className='welcome-btns'>
                     <a href="#registration">
-                    <Button 
+                    <button 
                     className='btn'
-                    buttonStyle='btn--primary'
+                    // buttonStyle='btn--primary'
                     >
                         <TranslatableText
                     dictionary={{ english: "Register ", russian: "Регистрация", kazakh: "Тіркелу" }}
                         /> 
-                    </Button></a>
-                    <Button 
+                    </button></a>
+                    <button 
                     className='btn'
-                    buttonStyle='btn--outline'
+                    // buttonStyle='btn--outline'
                     >
                        <TranslatableText
                     dictionary={{ english: "More ", russian: "Узнать еще", kazakh: "Толық ақпарат" }}
                         /> 
-                    </Button>
+                    </button>
                 </div>
             </div>
             <div className='welcome-illustration'>

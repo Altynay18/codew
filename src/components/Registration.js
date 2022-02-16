@@ -51,7 +51,9 @@ export default class Registration extends Component {
     const { email, first_name, 	last_name, date_of_birth, state_id, citizenship, city_of_residence, school_name, pursuing_degree, current_year,enrollment_verification, contest_language, programming_language, cv, motivation} = this.state;    
     return (
       <div  className="container" id="registration">
-        <h1>Registration form</h1>
+        <h1><TranslatableText
+             dictionary={{ english: "Registration form", russian: "Форма для регистрации", kazakh: "Тіркелу формасы" }}
+            /></h1>
         <form className="form" onSubmit={this.submitHandler}>
 			<label>
       <TranslatableText
