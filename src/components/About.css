@@ -60,6 +60,20 @@
     height: 100%;    
 }
 
+@media screen and (max-width: 768px) {
+    .about-container{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .about-text,
+    .about-eligibility{
+        font-size: 1rem;
+    }
+
+
+}
+
 @media screen and (max-width: 480px) {
     .about-container{
         flex-direction: column;
@@ -73,4 +87,5 @@
 
 
 }
+
 
