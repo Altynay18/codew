@@ -75,7 +75,7 @@ p{
     .welcome-container {
       font-size: 20px;
       flex-direction: column;
-      column-gap: 1rem;
+      gap: 3rem;
       justify-content: center;
       align-items: center;
       padding: 0;
@@ -92,6 +92,7 @@ p{
 
     .welcome-title{
         padding-left: 10px;
+        text-align: center;
     }
 
     
@@ -119,6 +120,8 @@ p{
 
     .welcome-title{
         padding-left: 10px;
+        text-align: center;
+
     }
 
     
