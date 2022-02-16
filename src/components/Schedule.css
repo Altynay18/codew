@@ -51,6 +51,11 @@
     text-align: left;
 }
 @media screen and (max-width: 480px) {
+    .schedule-section{
+        width: 100%;
+        padding: 0;
+    }
+
     .time,
     .activity{
         font-size: 1rem;
@@ -70,5 +75,11 @@
         .title{
             padding-left: 1rem;
        }
+
+       .schedule-section{
+        height: max-content;
+        width: 100%;
+        padding: 0;
+    }
     }
     
