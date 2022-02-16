@@ -83,6 +83,10 @@ p{
     }
     .welcome-description{
         width: 100%;
+        padding: 0;
+    }
+    .welcome-btns{
+        margin: auto;
     }
 
     .btn{
@@ -93,6 +97,10 @@ p{
     .welcome-title{
         padding-left: 10px;
         text-align: center;
+    }
+
+    .welcome-illustration{
+        margin-top: 3rem;
     }
 
     
@@ -109,8 +117,12 @@ p{
       /* margin-top: -150px; */
     }
     .welcome-description{
+        padding: 0;
         width: 100%;
+    }
 
+    .welcome-btns{
+        margin: auto;
     }
 
     .btn{
@@ -122,6 +134,9 @@ p{
         padding-left: 10px;
         text-align: center;
 
+    }
+    .welcome-illustration{
+        margin-top: 3rem;
     }
 
     
