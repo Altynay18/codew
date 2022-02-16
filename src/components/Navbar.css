@@ -3,7 +3,7 @@
 .navbar-container{
     background-color: #fff;
     height: 80px;
-    max-width: 1500px;
+    width: 100%;
     border-bottom: 1px solid #fff;
     box-shadow: 5px 10px 18px #888888;
     position: sticky;
