@@ -5,7 +5,7 @@ function FaqUpd() {
 
   return (
      <div className='faq' id="faq">
-         <h1 className='faq-title'>Frequently asked questions:
+         <h1 className='faq-title'>
          <TranslatableText
              dictionary={{ english: "Frequently asked questions:", russian: "Часто задаваемые вопросы", kazakh: "Жиі қойылатын сұрақтар" }}
             /></h1>
