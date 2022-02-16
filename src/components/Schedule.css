@@ -50,3 +50,25 @@
     font-size: 24px;
     text-align: left;
 }
+@media screen and (max-width: 480px) {
+    .time,
+    .activity{
+        font-size: 1rem;
+    }
+
+    .title{
+        padding-left: 1rem;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    
+        .time,
+        .activity{
+            font-size: 1.5rem;
+        }
+        .title{
+            padding-left: 1rem;
+       }
+    }
+    

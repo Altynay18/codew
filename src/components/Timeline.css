@@ -72,19 +72,27 @@
 }
 
 @media screen and (max-width: 480px) {
-    
     .qualification__title,
     .qualification__subtitle, 
     .qualification__calendar{
         font-size: 1rem;
     }
 
-    .about-gallery >img{
-        max-width: 480px;
-    }
+    .section__title{
+     padding-left: 1rem;
+}
+}
 
+@media screen and (max-width: 768px) {
+    
+        .qualification__title,
+        .qualification__subtitle, 
+        .qualification__calendar{
+            font-size: 1.5rem;
+        }
+        .section__title{
+            padding-left: 1rem;
+       }
+    }
     
 
-
-
-}
