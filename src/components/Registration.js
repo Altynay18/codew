@@ -47,6 +47,7 @@ export default class Registration extends Component {
     console.log(this.state);
   }
   
+  
   render() {
     const { email, first_name, 	last_name, date_of_birth, state_id, citizenship, city_of_residence, school_name, pursuing_degree, current_year,enrollment_verification, contest_language, programming_language, cv, motivation} = this.state;    
     return (
@@ -55,6 +56,7 @@ export default class Registration extends Component {
              dictionary={{ english: "Registration form", russian: "Форма для регистрации", kazakh: "Тіркелу формасы" }}
             /></h1>
         <form className="form" onSubmit={this.submitHandler}>
+        
 			<label>
       <TranslatableText
              dictionary={{ english: "E-mail", russian: "Электронная почта", kazakh: "Электронды пошта" }}
@@ -125,7 +127,7 @@ export default class Registration extends Component {
 			<label><TranslatableText dictionary={{ english: "Motivational letter", russian: "Мотивационное письмо", kazakh: "Мотивациялық хат" }} /> </label>
             <input  type="text" name = "motivation" value = {motivation} onChange={this.changeHandler}/>
             
-            <button type='submit' className='registration-btn'>Submit</button>
+            <button type='submit' id="submit" className='registration-btn'>Submit</button>
 
         </form>
 
