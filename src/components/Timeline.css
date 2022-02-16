@@ -71,11 +71,10 @@
     transform: translate(6px, -7px);
 }
 
-@media screen and (max-width: 480px) {
-    .qualification__title,
-    .qualification__subtitle, 
-    .qualification__calendar{
+@media screen and (max-width: 550px) {
+    span, h3{
         font-size: 8px;
+        
     }
 
     .section__title{
@@ -85,9 +84,7 @@
 
 @media screen and (max-width: 768px) {
     
-        .qualification__title,
-        .qualification__subtitle, 
-        .qualification__calendar{
+        .span, h3{
             font-size: 16px;
         }
         .section__title{

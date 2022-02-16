@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     
     .faq-container{
         font-size: 16px;
