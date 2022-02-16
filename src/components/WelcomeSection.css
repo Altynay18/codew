@@ -72,3 +72,16 @@ p{
 .welcome-illustration > img{
     max-width: 555px;
 }
+
+@media screen and (max-width: 960px) {
+    .welcome-container {
+      font-size: 20px;
+      margin-top: -150px;
+    }
+  }
+  
+  /* @media screen and (max-width: 768px) {
+    .welcome-title >h3 {
+      font-size: 18px;
+      margin-top: -100px;
+    } */

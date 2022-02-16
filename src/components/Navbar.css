@@ -3,12 +3,12 @@
 .navbar-container{
     background-color: #fff;
     height: 80px;
+    max-width: 1500px;
     border-bottom: 1px solid #fff;
     box-shadow: 5px 10px 18px #888888;
     position: sticky;
     top: 0;
     z-index: 999;
-    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -26,8 +26,8 @@
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 2rem;
-    overflow: auto;
+    grid-gap: 1rem;
+    /* overflow: auto; */
     list-style: none;
     text-align: center;
 
@@ -61,5 +61,6 @@
     border: solid 2px #FF7E70;
     border-radius: 8px;
 }
+
 
 
