@@ -26,7 +26,7 @@ function Team() {
                 </div>
                 <div>
                     <a href='https://www.instagram.com/acmsc_nu/'><img  className='icons' src='../../sm1.png' alt='sm'></img></a>
-                    <a href='https://web.telegram.org/z/#-1231208125' ><img  className='icons' src='../../sm2.png' alt='sm'></img></a>
+                    <a href='https://t.me/nu_acm_w' ><img  className='icons' src='../../sm2.png' alt='sm'></img></a>
                     <a href='mailto:acmsc@nu.edu.kz'><img  className='icons' src='../../sm3.png' alt='sm'></img></a>
                 </div>
             </div>

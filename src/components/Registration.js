@@ -125,7 +125,7 @@ export default class Registration extends Component {
             <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "cv" value = {cv} onChange={this.changeHandler}/>
 
 			<label><TranslatableText dictionary={{ english: "Motivational letter (no more than 200 words)", russian: "Мотивационное письмо (Не большое 200 слов)", kazakh: "Мотивациялық хат (200 cөзден артық емес)" }} /> </label>
-            <input  type="text" id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}/>
+            <input  type="textfield" id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}/>
             
             <button type='submit' id="submit" className='registration-btn'>Submit</button>
 

@@ -40,6 +40,7 @@ select{
 
 #mtv{
     height: 100px;
+    padding: 0;
 }
 
 .registration-btn{
