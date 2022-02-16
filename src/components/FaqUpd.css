@@ -11,13 +11,17 @@
     }
 
 .column1{
+    width: 50%;
     margin-right: 3rem;
+}
 
+.column2{
+    width: 50%;
 }
     
 .faq-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
     justify-content: stretch;
 }
 
@@ -28,4 +32,31 @@
 
 .faq-item{
     margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .faq-container{
+        font-size: 24;
+        flex-direction: column;
+    }
+    
+    .column1,
+    .column2{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .faq-container{
+        font-size: 16px;
+        flex-direction: column;
+    }
+    
+    .column1,
+    .column2{
+        width: auto;
+    }
 }
