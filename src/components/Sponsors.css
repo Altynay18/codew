@@ -1,4 +1,6 @@
 .sponsors-container{
+    background: url('../../public/gadient2.jpg') center center/cover no-repeat; 
+
     height: max-content;
     padding: 60px 100px;
     width: 100%;
@@ -8,21 +10,31 @@
 .sponsors-title{
     font-size: 48px;
     font-weight: 700;
+    padding-bottom: 60px;
 }
 
 .companies-logo{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .logo{
-    width: 50%;
+    max-width: 250px;
     display: flex;
     justify-content: center;
     height: 80px;
-    margin: 3rem 0;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    @media screen (max-width: 768px) {
+        max-width: 100px;
+    }
+    @media screen and (max-width: 480px) {
+        max-width: 55px;
+    }
 }
 
