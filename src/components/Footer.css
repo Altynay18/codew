@@ -45,8 +45,33 @@
     transition: all 0.2s ease-out;
 }
 
-/* .footer-source{
-    text-decoration: none;
-    color: #000;
+
+@media screen and (max-width: 550px) {
+
+    .footer-menu{
+        grid-gap: 0.5rem;
+    }
+    .footer-links{
+        font-size: 0.5rem;
+    }
+
+    .footer-logo{
+        height: 30px;
+        padding: 0;  
+    }
 }
- */
+
+@media screen and (max-width: 650px) {
+
+    .footer-menu{
+        grid-gap: 0.5rem;
+    }
+    .footer-links{
+        font-size: 0.5rem;
+    }
+
+    .footer-logo{
+        height: 30px;
+        padding: 0;  
+    }
+}

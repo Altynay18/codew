@@ -37,15 +37,40 @@
 }
 
 @media screen and (max-width: 550px) {
+    .sponsors-container{    
+        padding: 60px 10px;
+        /* width: 100%; */
+    }
     .sponsors-title{
-        font-size: 24px;
+        font-size: 32px;
+    }
+
+    .companies-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        
     }
 
 }
 
 @media screen and (max-width: 768px) {
+    .sponsors-container{    
+        padding: 60px 10px;
+        /* width: 100%; */
+    }
     
     .sponsors-title{
         font-size: 32px;
+
+        
+    }
+    .companies-logo{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        
     }
     }

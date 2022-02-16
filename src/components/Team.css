@@ -48,11 +48,12 @@
 @media screen and (max-width: 768px) {
 
     .team-container{
-        padding: 0;
+        padding: 60px 10px;
     }
     .team-info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         /* flex-direction: 1fr 1fr; */
         /* justify-content: center; */
     }
@@ -65,6 +66,9 @@
     
 @media screen and (max-width: 550px) {
 
+    .team-container{
+        padding: 60px 10px;
+    }
     .team-container{
         padding: 0;
     }

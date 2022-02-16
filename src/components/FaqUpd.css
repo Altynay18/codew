@@ -36,7 +36,10 @@
 
 
 @media screen and (max-width: 768px) {
-    
+    .faq{
+        padding: 10px;
+
+    }
     .faq-container{
         font-size: 24;
         flex-direction: column;
@@ -44,7 +47,7 @@
     
     .column1,
     .column2{
-        width: auto;
+        width: 100%;
     }
 }
 

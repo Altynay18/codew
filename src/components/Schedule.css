@@ -55,13 +55,17 @@
         width: 100%;
         padding: 0;
     }
+    .schedule{
+        width: 80%;
+    }
 
     .time,
     .activity{
         font-size: 1rem;
     }
 
-    .title{
+    .title,
+    .subtitle{
         padding-left: 1rem;
    }
 }
@@ -72,9 +76,13 @@
         .activity{
             font-size: 1.5rem;
         }
-        .title{
+        .title,
+        .subtitle{
             padding-left: 1rem;
        }
+       .schedule{
+        width: 80%;
+    }
 
        .schedule-section{
         height: max-content;
