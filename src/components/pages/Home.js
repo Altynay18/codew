@@ -20,9 +20,9 @@ function Home(){
         <WelcomeSection/>
         <About/>
         <Timeline/>
+        <Schedule/>
         <Sponsors/>
         <Team/>
-        <Schedule/>
         <FaqUpd/>
         <Registration/>
         <Footer/>

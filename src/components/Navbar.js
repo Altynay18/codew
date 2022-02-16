@@ -8,7 +8,7 @@ function Navbar() {
   return(
     <>
       <div className='navbar-container'>
-          <img src='../../wordlogo.svg' alt='logo' className='navbar-logo'></img>
+          <a href="welcome"><img src='../../wordlogo.svg' alt='logo' className='navbar-logo'></img></a>
         <ul className='nav-menu'>
           <li className='nav-item'>
             <a href="#about" className='nav-links' >

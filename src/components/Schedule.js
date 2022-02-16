@@ -14,7 +14,7 @@ function Schedule() {
         </div> 
         <div className='subtitle'> 
             <TranslatableText
-             dictionary={{ english: "Contest date: 7th of March", russian: "Дата соревнования: 7 марта", kazakh: "Жарыс күні: Наурыз 7-сі" }}
+             dictionary={{ english: "Contest date: 7th of March", russian: "Дата соревнования: 7 марта", kazakh: "Жарыс күні: Наурыздың 7-сі" }}
             /> 
 
         </div>          

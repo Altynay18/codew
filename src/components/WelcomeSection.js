@@ -6,7 +6,7 @@ import './WelcomeSection.css';
 import TranslatableText from '../context/TranslatableText';
 function WelcomeSection(){
     return(
-        <div className='welcome-container'>   
+        <div className='welcome-container' id="welcome">   
             <div className='welcome-description'>
                 <div className='welcome-title'>
                     {/* <img src="../../decor.png" alt="decor"></img> */}
@@ -35,7 +35,7 @@ function WelcomeSection(){
                     dictionary={{ english: "Register ", russian: "Регистрация", kazakh: "Тіркелу" }}
                         /> 
                     </button></a>
-                    <button 
+                    <a href="#about"><button 
                     className='btn'
                     // buttonStyle='btn--outline'
                     >
@@ -43,6 +43,7 @@ function WelcomeSection(){
                     dictionary={{ english: "More ", russian: "Узнать еще", kazakh: "Толық ақпарат" }}
                         /> 
                     </button>
+                    </a>
                 </div>
             </div>
             <div className='welcome-illustration'>
