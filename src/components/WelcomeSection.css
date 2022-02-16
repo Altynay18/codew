@@ -84,10 +84,12 @@ p{
     }
 
     .btn{
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
+        margin: auto;
+
     }
 
-    .welcome-description{
+    .welcome-title{
         margin: auto;
     }
 
