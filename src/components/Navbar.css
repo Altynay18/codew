@@ -13,9 +13,7 @@
     justify-content: space-around;
     align-items: center; 
 
-    @media screen and (max-width: 1100px) {
-        transition: 0.8s all ease;
-    }
+    
 }
 
 .navbar-logo{
@@ -62,5 +60,34 @@
     border-radius: 8px;
 }
 
+@media screen and (max-width: 550px) {
+
+    .nav-menu{
+        grid-gap: 0.5rem;
+    }
+    .nav-links{
+        font-size: 0.5rem;
+    }
+
+    .navbar-logo{
+        height: 30px;
+        padding: 0;  
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .nav-menu{
+        grid-gap: 0.5rem;
+    }
+    .nav-links{
+        font-size: 0.5rem;
+    }
+
+    .navbar-logo{
+        height: 30px;
+        padding: 0;  
+    }
+}
 
 

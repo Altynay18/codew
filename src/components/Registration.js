@@ -60,6 +60,10 @@ export default class Registration extends Component {
     return str.split(' ').length;
   }
 
+   myFunction() {
+    alert("this is the alert");
+  }
+
 
   validate = () => {
     let email_err = "";
@@ -373,8 +377,8 @@ export default class Registration extends Component {
             />
         </div> : null}
             
-        <button type='submit' id="submit" className='registration-btn'>Submit</button>
-
+        <button type='submit' id="submit" className='registration-btn' onclick="myFunction()">Submit</button>
+        <p id="demo" ></p>
         </form>
 
       </div>
