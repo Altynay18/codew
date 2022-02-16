@@ -182,7 +182,7 @@ export default class Registration extends Component {
       contest_language: this.state.contest_language,
       programming_language: this.state.programming_language,
       cv: this.state.cv,
-      motivation: this.state.motivation_err,
+      motivation: this.state.motivation,
     }
 
     if (isValid) {
@@ -365,7 +365,7 @@ export default class Registration extends Component {
         </div> : null}
 
         <label><TranslatableText dictionary={{ english: "Motivational letter (no more than 200 words)", russian: "Мотивационное письмо (Не большое 200 слов)", kazakh: "Мотивациялық хат (200 cөзден артық емес)" }} /> </label>
-        <input  type="text" id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}/>
+        <textarea  id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}></textarea>
         { this.state.motivation_err === "limit" ? <div className="errmsg">
           <TranslatableText
             dictionary={{ english: "Exceeded the word limit", russian: "Вы превысили лимит слов", kazakh: "200 сөз шектеуінен асып кеттіңіз" }}
@@ -377,7 +377,7 @@ export default class Registration extends Component {
             />
         </div> : null}
             
-        <button type='submit' id="submit" className='registration-btn' onclick="myFunction()">Submit</button>
+        <button type='submit' id="submit" className='registration-btn' >Submit</button>
         <p id="demo" ></p>
         </form>
 
