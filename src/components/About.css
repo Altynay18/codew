@@ -1,19 +1,13 @@
 .about-container{
     /* background-color: #D3E5E9; */
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
     height: max-content;
     width: 100%;
     padding: 60px 100px;
     /* padding-top: 60px; */
-
-
-    @media screen and (max-width: 768px) {
-        padding: 100px 0;
-        font-size: 2rem;
-    }
 
 }
 
@@ -28,9 +22,7 @@
     font-size: 48px;
     font-weight: 700;
 
-    @media screen and (max-width: 480px) {
-        font-size: 22px;
-    }
+   
 }
 
 .about-text > p{
@@ -67,3 +59,18 @@
     max-width: 555px;
     height: 100%;    
 }
+
+@media screen and (max-width: 480px) {
+    .about-container{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .about-text,
+    .about-eligibility{
+        font-size: 1rem;
+    }
+
+
+}
+
