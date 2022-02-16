@@ -71,19 +71,26 @@
         font-size: 1rem;
     }
 
-
+    .about-gallery >img{
+        max-width: 768px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .about-container{
         flex-direction: column;
-        padding-left: 10px;
+        padding-left: 2rem;
     }
 
     .about-text,
     .about-eligibility{
         font-size: 1rem;
     }
+
+    .about-gallery >img{
+        max-width: 480px;
+    }
+
 
 
 }
