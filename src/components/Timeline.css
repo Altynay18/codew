@@ -92,6 +92,11 @@
         font-size: 0.8rem;
     }
 
+    .qualification__line,
+    .qualification__rounder{
+        display: none;
+    }
+
     .qualification__title{
         font-size: 1.5rem;
     }
@@ -125,6 +130,10 @@
     .qualification__calendar,
     .qualification__subtitle{
         font-size: 0.8rem;
+    }
+    .qualification__line,
+    .qualification__rounder{
+        display: none;
     }
 
     .qualification__title{
