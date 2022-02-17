@@ -50,10 +50,10 @@
     font-size: 24px;
     text-align: left;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
     .schedule-section{
         width: 100%;
-        padding: 0;
+        padding: 10px;
     }
     .schedule{
         width: 80%;
@@ -61,25 +61,25 @@
 
     .time,
     .activity{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
-    .title,
+    /* .title,
     .subtitle{
         padding-left: 1rem;
-   }
+   } */
 }
 
 @media screen and (max-width: 768px) {
     
         .time,
         .activity{
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
-        .title,
+        /* .title,
         .subtitle{
             padding-left: 1rem;
-       }
+       } */
        .schedule{
         width: 80%;
     }
@@ -87,7 +87,7 @@
        .schedule-section{
         height: max-content;
         width: 100%;
-        padding: 0;
+        padding: 10px;
     }
     }
     

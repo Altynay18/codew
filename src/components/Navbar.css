@@ -60,7 +60,7 @@
     border-radius: 8px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
 
     .nav-menu{
         grid-gap: 0.5rem;
@@ -72,6 +72,13 @@
     .navbar-logo{
         height: 30px;
         padding: 0;  
+    }
+
+    .languages{
+        font-size: 1rem;
+        width: 60px;
+        height: 30px;
+        
     }
 }
 
@@ -87,6 +94,12 @@
     .navbar-logo{
         height: 30px;
         padding: 0;  
+    }
+    .languages{
+        font-size: 1rem;
+        width: 60px;
+        height: 30px;
+        
     }
 }
 

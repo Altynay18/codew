@@ -58,28 +58,35 @@
         /* justify-content: center; */
     }
     .team-photo > img{
-        max-width: 500px;
+        width: auto ;
+        max-width: 100% ;
         object-fit: contain;
         margin: auto;
     }}
 
     
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 480px) {
 
     .team-container{
-        padding: 60px 10px;
+        padding: 10px;
     }
-    .team-container{
-        padding: 0;
-    }
+    
     .team-info{
         display: flex;
         flex-direction: column;
         /* flex-direction: 1fr 1fr; */
         /* justify-content: center; */
     }
+
+    .team-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
     .team-photo > img{
-        max-width: 480px;
+        width: auto ;
+        max-width: 100% ;
         object-fit: contain;
-        margin: auto;
+
     }}
