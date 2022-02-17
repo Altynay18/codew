@@ -79,7 +79,7 @@ function Navbar() {
           </li>
         </ul>
 
-        {button && <button buttonStyle='btn--outline'>SIGN UP</button>}
+        {button && <button buttonStyle='btn--outline' className='navbtn'>SIGN UP</button>}
         
          <LanguageConsumer>{({ updateLanguage }) => (
                                 <select onChange={updateLanguage} className='languages'>
