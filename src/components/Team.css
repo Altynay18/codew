@@ -57,11 +57,16 @@
         /* flex-direction: 1fr 1fr; */
         /* justify-content: center; */
     }
+
+    .team-photo{
+        width: 100%;
+        padding: 3rem;
+    }
     .team-photo > img{
+        display: block;
         width: auto ;
         max-width: 100% ;
         object-fit: contain;
-        margin: auto;
     }}
 
     
@@ -79,12 +84,14 @@
     }
 
     .team-photo{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
 
     }
     .team-photo > img{
+        display: block;
         width: auto ;
         max-width: 100% ;
         object-fit: contain;

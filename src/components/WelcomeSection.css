@@ -83,7 +83,8 @@ p{
     }
     .welcome-description{
         width: 100%;
-        padding: 0;
+        padding: 2rem 0 0 0;
+
     }
     .welcome-btns{
         margin: auto;
@@ -91,15 +92,16 @@ p{
 
     .btn{
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .welcome-title{
         text-align: center;
     }
 
-    .welcome-illustration{
-        margin-top: 3rem;
-        width: 50vw;
+    .welcome-illustration>img{
+        width: auto ;
+        max-width: 100% ;
     }
 
     
@@ -117,7 +119,7 @@ p{
     }
     .welcome-description{
         width: 100%;
-        padding: 0;
+        padding: 2rem 0 0 0;
     }
 
     .welcome-btns{
@@ -126,16 +128,16 @@ p{
 
     .btn{
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .welcome-title{
         text-align: center;
     }
     
-    .welcome-illustration{
-        margin-top: 3rem;
-        width: 50vw;
-
+    .welcome-illustration>img{
+        width: auto ;
+        max-width: 100% ;
     }
 
     
