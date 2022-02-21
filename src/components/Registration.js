@@ -137,10 +137,10 @@ export default class Registration extends Component {
       enrollment_verification_err = "Invalid link";
       console.log(enrollment_verification_err);
     }
-    if( (!url_regex.test(this.state.cv)) || !this.state.cv){
-      cv_err = "invalid link";
-      console.log(cv_err);
-    }
+    // if( (!url_regex.test(this.state.cv)) || !this.state.cv){
+    //   cv_err = "invalid link";
+    //   console.log(cv_err);
+    // }
 
     if(
         email_err || first_name_err || last_name_err || 
@@ -221,7 +221,7 @@ export default class Registration extends Component {
 
         <label>
           <TranslatableText
-              dictionary={{ english: "E-mail", russian: "Электронная почта", kazakh: "Электронды пошта" }}
+              dictionary={{ english: "E-mail*", russian: "Электронная почта*", kazakh: "Электронды пошта*" }}
             /> 
         </label>
         <input name = "email" value = {email} onChange={this.changeHandler}/>
@@ -233,7 +233,7 @@ export default class Registration extends Component {
         
         <label>
           <TranslatableText
-              dictionary={{ english: "First name", russian: "Имя", kazakh: "Аты" }}
+              dictionary={{ english: "First name*", russian: "Имя*", kazakh: "Аты*" }}
             />
         </label>
         <input type="text" name = "first_name" value = {first_name} onChange={this.changeHandler}/>
@@ -245,7 +245,7 @@ export default class Registration extends Component {
 
         <label>
           <TranslatableText
-              dictionary={{ english: "Last name", russian: "Фамилия", kazakh: "Тегі" }}
+              dictionary={{ english: "Last name*", russian: "Фамилия*", kazakh: "Тегі*" }}
             />
         </label>
         <input type="text" name = "last_name" value = {last_name} onChange={this.changeHandler}/>
@@ -257,7 +257,7 @@ export default class Registration extends Component {
       
         <label>
           <TranslatableText
-              dictionary={{ english: "Date of birth", russian: "Дата рождения", kazakh: "Туылған күні" }}
+              dictionary={{ english: "Date of birth*", russian: "Дата рождения*", kazakh: "Туылған күні*" }}
             />
         </label>
         <input type="date" name = "date_of_birth" value = {date_of_birth} onChange={this.changeHandler}/>
@@ -271,7 +271,7 @@ export default class Registration extends Component {
       
         <label>
           <TranslatableText
-              dictionary={{ english: "State ID (link)", russian: "Удостоверение личности (ссылка)", kazakh: "Жеке куәлігі (сілтеме)" }}
+              dictionary={{ english: "State ID* (link)", russian: "Удостоверение личности* (ссылка)", kazakh: "Жеке куәлігі* (сілтеме)" }}
             />
         </label>
         <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "state_id" value = {state_id} onChange={this.changeHandler}/>
@@ -284,7 +284,7 @@ export default class Registration extends Component {
           
         <label>
           <TranslatableText
-              dictionary={{ english: "Citizenship", russian: "Гражданство", kazakh: "Азаматтығы" }}
+              dictionary={{ english: "Citizenship*", russian: "Гражданство*", kazakh: "Азаматтығы*" }}
             />
         </label>
         <input type="text" name = "citizenship" value = {citizenship} onChange={this.changeHandler}/>
@@ -295,7 +295,7 @@ export default class Registration extends Component {
         </div> : null}
 
         <label><TranslatableText
-              dictionary={{ english: "City of residence", russian: "Город проживания", kazakh: "Қала" }}
+              dictionary={{ english: "City of residence*", russian: "Город проживания*", kazakh: "Қала*" }}
               /></label>
         <input type="text" name = "city_of_residence" value = {city_of_residence} onChange={this.changeHandler}/>
         { this.state.city_of_residence_err ? <div className="errmsg">
@@ -306,7 +306,7 @@ export default class Registration extends Component {
 
         <label>
           <TranslatableText
-              dictionary={{ english: "University or School organization name", russian: "Полное название университета или школы", kazakh: "Университет немесе мектептің толық атауы" }}
+              dictionary={{ english: "University or School organization name*", russian: "Полное название университета или школы*", kazakh: "Университет немесе мектептің толық атауы*" }}
             />
         </label>
         <input type="text" name = "school_name" value = {school_name} onChange={this.changeHandler}/>
@@ -318,7 +318,7 @@ export default class Registration extends Component {
 
         <label>
           <TranslatableText 
-              dictionary={{ english: "Currently pursuing degree ", russian: "Ваша текущая степень", kazakh: "Қазіргі алып жатырған дәреже" }} 
+              dictionary={{ english: "Currently pursuing degree* ", russian: "Ваша текущая степень*", kazakh: "Қазіргі алып жатырған дәреже*" }} 
             />
         </label>
         {/* <input placeholder='High School, Bachelors, Masters, PhD' type="text" name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}/> */}
@@ -334,7 +334,7 @@ export default class Registration extends Component {
             />
         </div> : null}
 
-        <label><TranslatableText dictionary={{ english: "Years completed towards degree ", russian: "Текущий год обучения", kazakh: "Оқу жылы" }} /> </label>
+        <label><TranslatableText dictionary={{ english: "Current year* ", russian: "Текущий год обучения*", kazakh: "Оқу жылы*" }} /> </label>
         <input type="number" min="0" max="10" name = "current_year" value = {current_year} onChange={this.changeHandler}/>
          { this.state.current_year_err ? <div className="errmsg">
           <TranslatableText
@@ -342,7 +342,7 @@ export default class Registration extends Component {
             />
         </div> : null}
 
-        <label><TranslatableText dictionary={{ english: "Official Transcript or Enrollment verification (Spravka)", russian: "Официальный транскрипт или справка о зачислении ", kazakh: "Ресми транскрипт немесе қабылдану туралы анықтама" }} /> </label>
+        <label><TranslatableText dictionary={{ english: "Transcript or Enrollment verification* (unofficial transcripts can also be accepted)", russian: "Транскрипт или справка о зачислении* (неофициальный транскрипт тоже принимается) ", kazakh: "Транскрипт немесе қабылдану туралы анықтама* (ресми емес транскрипт те қабылданады)" }} /> </label>
         <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "enrollment_verification" value = {enrollment_verification} onChange={this.changeHandler}/>
         { this.state.enrollment_verification_err ? <div className="errmsg">
           <TranslatableText
@@ -358,13 +358,13 @@ export default class Registration extends Component {
 
         <label><TranslatableText dictionary={{ english: "CV or Resume", russian: "CV или резюме", kazakh: "CV немесе түйіндеме" }} /></label>
         <input placeholder='ex: https://drive.google.com/file/d/1_ezCOeT6YJQfiVndtI3h00uUPkg/view?usp=sharing' type="text" name = "cv" value = {cv} onChange={this.changeHandler}/>
-        { this.state.cv_err ? <div className="errmsg">
+        {/* { this.state.cv_err ? <div className="errmsg">
           <TranslatableText
             dictionary={{ english: "Enter valid link", russian: "Введите правильную ссылку", kazakh: "Дұрыс сілтеме енгізіңіз" }}
             />
-        </div> : null}
+        </div> : null} */}
 
-        <label><TranslatableText dictionary={{ english: "Motivational letter (no more than 200 words)", russian: "Мотивационное письмо (Не большое 200 слов)", kazakh: "Мотивациялық хат (200 cөзден артық емес)" }} /> </label>
+        <label><TranslatableText dictionary={{ english: "Motivational letter* (no more than 200 words)", russian: "Мотивационное письмо* (Не большое 200 слов)", kazakh: "Мотивациялық хат* (200 cөзден артық емес)" }} /> </label>
         <textarea  id = "mtv"name = "motivation" value = {motivation} onChange={this.changeHandler}></textarea>
         { this.state.motivation_err === "limit" ? <div className="errmsg">
           <TranslatableText
