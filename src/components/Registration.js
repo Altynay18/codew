@@ -323,6 +323,7 @@ export default class Registration extends Component {
         </label>
         {/* <input placeholder='High School, Bachelors, Masters, PhD' type="text" name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}/> */}
         <select name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}>
+            <option value = "default">Choose one</option>
             <option value = "highschool">Highschool</option>
             <option value = "bachelors">Bachelors</option>
             <option value = "masters">Masters</option>
