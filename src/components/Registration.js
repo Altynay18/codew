@@ -381,7 +381,7 @@ export default class Registration extends Component {
         <button type='submit' id="submit" className='registration-btn' >Submit</button>
         <p id="demo" ></p>
         </form>
-
+   
       </div>
     )
   }
