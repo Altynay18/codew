@@ -318,7 +318,7 @@ export default class Registration extends Component {
 
         <label>
           <TranslatableText 
-              dictionary={{ english: "Currently pursuing degree* ", russian: "Ваша текущая степень*", kazakh: "Қазіргі алып жатырған дәреже*" }} 
+              dictionary={{ english: "Currently pursuing degree/Latest acquired degree * ", russian: "Ваша текущая степень/Последняя полученная степень*", kazakh: "Қазіргі алып жатырған деңгей/Соңғы алған деңгейіңіз*" }} 
             />
         </label>
         {/* <input placeholder='High School, Bachelors, Masters, PhD' type="text" name = "pursuing_degree" value = {pursuing_degree} onChange={this.changeHandler}/> */}
@@ -381,6 +381,11 @@ export default class Registration extends Component {
         <button type='submit' id="submit" className='registration-btn' >Submit</button>
         <p id="demo" ></p>
         </form>
+        <p className="reg_note">
+        <TranslatableText
+            dictionary={{ english: "In case of any problems with registration please contact us using the links below", russian: "В случае возникновения проблем с регистрацией свяжитесь с нами по ссылкам ниже", kazakh: "Тіркелуде қандай да бір мәселелер туындаса, төмендегі сілтемелер арқылы бізге хабарласыңыз" }}
+            /></p>
+
    
       </div>
     )
