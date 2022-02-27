@@ -33,7 +33,7 @@ function Team() {
             
 
             <div className='team-photo'>
-                <img src='../../teamnew.jpg' alt='team'></img>
+                <img src='../../team.jpg' alt='team'></img>
             </div>
         </div>
     </div>
