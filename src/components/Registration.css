@@ -63,6 +63,12 @@ input, textarea{
     font-size: 10px;
 }
 
+.reg-closed{
+    border: 1px solid #FF7E70;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 
 
 

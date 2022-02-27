@@ -216,6 +216,11 @@ export default class Registration extends Component {
               dictionary={{ english: "Registration form", russian: "Форма для регистрации", kazakh: "Тіркелу формасы" }}
             />
         </h1>
+        <div className='reg-closed'>
+        <TranslatableText
+              dictionary={{ english: "Registration period has closed", russian: "Период регистрации завершен", kazakh: "Тіркеу мерзімі аяқталды" }}
+            />
+        </div>
         <form className="form" onSubmit={this.submitHandler}>
         
 
@@ -384,6 +389,10 @@ export default class Registration extends Component {
         <p className="reg_note">
         <TranslatableText
             dictionary={{ english: "In case of any problems with registration please contact us using the links below", russian: "В случае возникновения проблем с регистрацией свяжитесь с нами по ссылкам ниже", kazakh: "Тіркелуде қандай да бір мәселелер туындаса, төмендегі сілтемелер арқылы бізге хабарласыңыз" }}
+            /></p>
+         <p className="reg_note">
+        <TranslatableText
+            dictionary={{ english: "You will receive an e-mail confirmation when you successfully register", russian: "После успешной регистрации вы получите подтверждение по электронной почте.", kazakh: "Сәтті тіркелгеннен кейін электрондық поштаға растау хатын аласыз." }}
             /></p>
 
    
