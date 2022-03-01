@@ -13,7 +13,7 @@ h1 {
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;   
   }
   
 
@@ -63,11 +63,11 @@ input, textarea{
     font-size: 10px;
 }
 
-/* .reg-closed{
+.reg-closed{
     border: 1px solid #FF7E70;
     border-radius: 1rem;
     padding: 1rem;
-} */
+}
 
 
 
