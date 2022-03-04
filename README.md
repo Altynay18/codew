@@ -1,6 +1,7 @@
 # codeW 2022 website
 Available at: www.codew.kz
 
+![image](https://user-images.githubusercontent.com/40347560/156813578-9f9cb0ea-c0ab-485d-922d-9d1b8dd02c70.png)
 
 
 # Getting Started with Create React App
