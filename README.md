@@ -3,6 +3,10 @@ Available at: www.codew.kz
 
 ![image](https://user-images.githubusercontent.com/40347560/156813578-9f9cb0ea-c0ab-485d-922d-9d1b8dd02c70.png)
 
+Form validation credits to Aldiyar
+Backend part credits to Vitaliy
+
+You are more than welcome to contribute
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
