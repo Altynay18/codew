@@ -8,15 +8,14 @@ function Schedule() {
       <>      
         <div className='schedule-section' id="schedule"> 
         <div className='title'>
-        <TranslatableText
-             dictionary={{ english: "Schedule", russian: "Расписание марафона", kazakh: "Марафон кестесі" }}
-        /> 
+            <TranslatableText
+                dictionary={{ english: "Schedule", russian: "Расписание марафона", kazakh: "Марафон кестесі" }}
+            /> 
         </div> 
         <div className='subtitle'> 
             <TranslatableText
-             dictionary={{ english: "Contest date: 7th of March", russian: "Дата соревнования: 7 марта", kazakh: "Жарыс күні: Наурыздың 7-сі" }}
+                dictionary={{ english: "Contest date: 7th of March", russian: "Дата соревнования: 7 марта", kazakh: "Жарыс күні: Наурыздың 7-сі" }}
             /> 
-
         </div>          
         <div className='schedule-container'>
             <div className='schedule'>

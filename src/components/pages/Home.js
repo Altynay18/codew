@@ -7,7 +7,6 @@ import Timeline from '../Timeline';
 import Sponsors from '../Sponsors';
 import Team from '../Team';
 import Schedule from '../Schedule';
-// import Faq from '../Faq';
 import Footer from '../Footer';
 import Registration from '../Registration';
 import FaqUpd from '../FaqUpd';

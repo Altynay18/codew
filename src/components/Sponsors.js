@@ -7,9 +7,9 @@ function Sponsors() {
   return(
     <div className='sponsors-container' id="sponsors">
         <div className='sponsors-title'>
-        <TranslatableText
-             dictionary={{ english: "Meet our sponsors ", russian: "Наши спонсоры", kazakh: "Біздің демеушілер" }}
-        /> 
+            <TranslatableText
+                dictionary={{ english: "Meet our sponsors ", russian: "Наши спонсоры", kazakh: "Біздің демеушілер" }}
+            /> 
         </div>
         <div className='companies-logo'>
             <div className='logo'>

@@ -3,7 +3,6 @@
 
     height: max-content;
     padding: 60px 100px;
-    /* width: 100%; */
 }
 
 
@@ -71,6 +70,5 @@
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
-        
     }
     }

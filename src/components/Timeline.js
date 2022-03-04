@@ -8,9 +8,9 @@ function Timeline() {
         <div>
             <section className="qualification section" id="timeline">
                 <h2 className="section__title">
-                <TranslatableText
-                     dictionary={{ english: "Timeline", russian: "Процесс регистрации", kazakh: "Тіркелу барысы" }}
-                 /> 
+                    <TranslatableText
+                        dictionary={{ english: "Timeline", russian: "Процесс регистрации", kazakh: "Тіркелу барысы" }}
+                    /> 
                 </h2>
 
                 <div className="qualification__container container">
@@ -113,78 +113,6 @@ function Timeline() {
                 </div>
             </section>
         </div>
-
-    //   <div className='timeline-container section'>
-    //       <div className='timeline-item'>
-    //         <div>
-    //             <div className='item-number'>
-    //                 <p>01.</p>
-    //             </div>
-    //             <div className='item-content'>
-    //                 <p className='item-title'>Registration</p>
-    //                 <p className='description'>Fill the application form 
-    //                     by 11:59 PM March 21, 2021</p>
-    //             </div>
-    //         </div>
-    //             <div>
-    //                 <span class="qualification__rounder"></span>
-    //                 <span class="qualification__line"></span>
-    //             </div>
-    //       </div>
-    //       <div className='timeline-item'>
-    //             <div>
-    //                 <span class="qualification__rounder"></span>
-    //                 <span class="qualification__line"></span>
-    //             </div>
-    //            <div> 
-    //             <div className='item-number'>
-    //                 <p>02.</p>
-    //             </div>
-    //             <div className='item-content'>
-    //                 <p className='item-title'>HackerRank contest</p>
-    //                 <p className='description'>On 22nd of March you will receive the
-    //                    link to the HackerRank test, the results
-    //                    of which will determine you to one of the tracks:
-    //                    Novice/Experienced/Advanced. 
-    //                    You will have one week to solve the contest.</p>
-    //             </div>
-    //            </div>
-    //       </div>
-    //       <div className='timeline-item'>
-    //           <div>
-    //             <div className='item-number'>
-    //                 <p>03.</p>
-    //             </div>
-    //             <div className='item-content'>
-    //                 <p className='item-title'>Qualification test results</p>
-    //                 <p className='description'>The results of the HackerRank 
-    //                     will be sent to your email 
-    //                     on 3rd of April.</p>
-    //             </div>
-    //             </div>
-    //             <div>
-    //                  <span class="qualification__rounder"></span>
-    //                  <span class="qualification__line"></span>
-    //             </div>
-    //       </div>
-    //       <div className='timeline-item'>
-    //             <div>
-    //                 <span class="qualification__rounder"></span>
-    //             </div>
-    //             <div>
-    //             <div className='item-number'>
-    //                 <p>04.</p>
-    //             </div>
-    //             <div className='item-content'>
-    //                 <p className='item-title'>Contest day</p>
-    //                 <p className='description'>CodeW  will take place
-    //                     on XX Month, 2022.
-    //                     Detailed schedule is below</p>
-    //             </div>
-    //             </div>
-    //       </div>
-
-    //   </div>
   );
 }
 

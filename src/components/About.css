@@ -1,14 +1,9 @@
 .about-container{
-    /* background-color: #D3E5E9; */
-
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
     height: max-content;
     width: 100%;
     padding: 60px 100px;
-    /* padding-top: 60px; */
-
 }
 
 .about-text{
@@ -21,8 +16,6 @@
 .about-text > h3{
     font-size: 48px;
     font-weight: 700;
-
-   
 }
 
 .about-text > p{
@@ -32,7 +25,6 @@
 
 .about-eligibility{
     padding-top: 30px;
-    /* padding-right: 140px; */
 }
 
 .about-eligibility > ul{
@@ -52,7 +44,6 @@
     width: 50%;
     display: flex;
     align-items: center;
-    
 }
 
 .about-gallery >img{
@@ -92,9 +83,6 @@
         width: auto ;
         max-width: 100% ;
     }
-
-
-
 }
 
 

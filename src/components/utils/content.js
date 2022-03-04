@@ -1,5 +1,3 @@
-// import TranslatableText from "../../context/TranslatableText";
-
 export const accordionData = [
     {
       title: "Who can participate ?",

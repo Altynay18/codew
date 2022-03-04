@@ -2,13 +2,12 @@
     background: url('../../public/gadient2.jpg') center center/cover no-repeat; 
     height: max-content;
     padding: 60px 100px;
-  
-  }
+}
     
-  .faq-title {
+.faq-title {
       font-size: 48px;
       font-weight: 700;
-    }
+}
 
 .column1{
     width: 50%;
@@ -29,11 +28,9 @@
     font-size: 18px;
 }
 
-
 .faq-item{
     margin-bottom: 2rem;
 }
-
 
 @media screen and (max-width: 768px) {
     .faq{
@@ -52,7 +49,6 @@
 }
 
 @media screen and (max-width: 550px) {
-    
     .faq-container{
         font-size: 16px;
         flex-direction: column;
